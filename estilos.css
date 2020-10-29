@@ -1,0 +1,96 @@
+/*<style type="text/css">*/
+.titulo1{ 
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+    font-size: 50px; 
+    color: #005883;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; line-height: 26.4px;
+    text-align: center;
+      
+    }
+div{
+    /*border:3px solid red;*/
+    /*width: 100px;*/ 
+    /*height: 30px;*/
+    display: inline-block;
+    
+}
+
+nav{
+    border: 10px groove #f0b429;
+    width: 100px;
+    height: 200px;
+    display:inline;
+}
+.button-menu{
+       display:inline-block;font-weight:400; text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#058748 !important;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:2rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-width:0;text-transform:uppercase;margin:0 auto;cursor:pointer;position:relative;height:44px;width:250px;}
+  @media (prefers-reduced-motion:reduce){
+  .button-menu{transition:none;}
+  }
+  .button-menu:hover{color:#f47920;text-decoration:none;background-color:#f47920 !important;}
+  .button-menu:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+  .button-menu:disabled{opacity:.65;cursor:not-allowed;}
+  .button-menu-block{display:block;}
+  input[type=button].btn-block{width:100%;}
+  @media print{
+  *,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+  }
+   @media (max-width: 768px){
+   .button-menu{font-size:0.875rem;}
+  }
+  .button-menu:hover,.button-menu:focus,.button-menu:active{color:#fff;}
+  .button-menu.button-menu-adc{background-color:#9c9c9c;}
+  
+    .social {
+        position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+       right: 0; /* Establecemos la barra en la izquierda */
+       top: 100px; /* Bajamos la barra 200px de arriba a abajo */
+       z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+            .social ul {
+            list-style: none;
+        }
+             .social ul li a {
+            display: inline-block;
+            color:#fff;
+            background: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            -webkit-transition:all 500ms ease;
+            -o-transition:all 500ms ease;
+            transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+        }
+        .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+        .social ul li .icon-twitter {background: #00abf0;}
+        .social ul li .icon-linkedin {background: #0e76a8;}
+        .social ul li .icon-mail {background: #666666;}
+     
+        .social ul li a:hover {
+            background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+            padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        }
+h2 {
+    color: #058748;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30PX;
+    }
+.par{
+        color: #005883;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align:left;
+        font-size: 20PX;
+        text-align: justify;
+    }
+    .subt{
+        color: #005883;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align:left;
+        font-size: 30PX;
+        text-align: justify;
+
+
+    }
+
+    </style>
